@@ -1,0 +1,12 @@
+.infoBox{
+    flex: 1;   
+}
+
+.infoBox:not(:last-child){
+    margin-right: 1%;
+}
+
+.infoBox__title{
+    font-weight: 700 !important;
+    font-size: 125% !important; 
+}
